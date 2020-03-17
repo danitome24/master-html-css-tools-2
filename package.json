@@ -36,5 +36,7 @@
     "rimraf": "^2.7.1",
     "sass": "^1.25.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1"
+  }
 }
