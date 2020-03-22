@@ -1,0 +1,74 @@
+// Logo
+.padding-logo {
+  padding: 40px;
+}
+
+// Title
+.header-title {
+  text-align: center;
+}
+
+// Size {
+.text-size-s {
+  font-size: 5px;
+}
+
+.text-size-l {
+  font-size: 20px;
+}
+
+.text-size-xl {
+  font-size: 40px;
+}
+
+// Text
+.text-yellow {
+  color: #e0a80d;
+}
+
+.to-upper {
+  text-transform: uppercase;
+}
+
+// Margins
+.margin-zero {
+  margin: 0;
+}
+
+.padding-top-l {
+  padding-top: 20px;
+}
+
+// Lists
+.heading-social {
+  list-style: none;
+  padding: 0;
+}
+
+.heading-social-item {
+  display: inline;
+  text-decoration: none;
+}
+
+.heading-social-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.heading-social-item a:hover i.fa-facebook-square {
+  color: #3B5998;
+}
+
+.heading-social-item a:hover i.fa-twitter-square {
+  color: #00acee;
+}
+
+.heading-social-item a:hover i.fa-github-square {
+  color: #24292e;
+}
+
+// Separators
+
+.bottom-separator {
+  width: 75%;
+}

@@ -1,0 +1,13 @@
+@use "sass:color";
+
+.lighten-background {
+  background-color: color.scale($uoc-bg, $lightness: 10%);
+}
+
+.fit-to-max-width {
+  width: 100%;
+}
+
+.text-align-center {
+  text-align: center;
+}
