@@ -15,11 +15,20 @@
   padding-right: 20px;
 }
 
-.about-me-desc-block p {
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: justify;
-  text-justify: inter-word;
+.about-me-desc-block {
+  margin-bottom: 50px;
+  p {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+
+.experience-title-block {
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 30px;
 }
 
 // Lists
@@ -48,4 +57,55 @@
 
 .heading-social-item a:hover i.fa-github-square {
   color: #24292e;
+}
+
+// Timeline
+.timeline-block {
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+  max-width: 46em;
+
+  &:before {
+    background-color: #fff;
+    content: '';
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    width: 2px;
+    height: 100%;
+  }
+}
+
+.timeline-event-item {
+  position: relative;
+}
+
+.timeline-event-item-desc {
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 80%;
+
+  h3 {
+    font-size: 1.75em;
+  }
+
+  h4 {
+    font-size: 1.2em;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+}
+
+.timeline-event-item-time {
+  color: #fff;
+  font-size: 0.75em;
+  background-color: #000;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
 }
