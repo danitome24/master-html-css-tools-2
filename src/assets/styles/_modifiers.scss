@@ -1,0 +1,51 @@
+@use "sass:color";
+
+// Colors
+.lighten-background {
+  background-color: color.scale($uoc-bg, $lightness: 10%);
+}
+
+// Sizes
+.fit-to-max-width {
+  width: 100%;
+}
+
+// Text
+.text-yellow {
+  color: #e0a80d;
+}
+
+.to-upper {
+  text-transform: uppercase;
+}
+
+.text-size-s {
+  font-size: 5px;
+}
+
+.text-size-l {
+  font-size: 20px;
+}
+
+.text-size-xl {
+  font-size: 40px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+// Margins
+.margin-zero {
+  margin: 0;
+}
+
+.padding-top-l {
+  padding-top: 20px;
+}
+
+// Separators
+.top-separator {
+  border-top: .75px solid #fff;
+  padding-top: 25px;
+}

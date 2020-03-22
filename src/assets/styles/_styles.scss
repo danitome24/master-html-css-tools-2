@@ -9,34 +9,17 @@
 }
 
 // Size {
-.text-size-s {
-  font-size: 5px;
+.about-me-block {
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 20px;
 }
 
-.text-size-l {
-  font-size: 20px;
-}
-
-.text-size-xl {
-  font-size: 40px;
-}
-
-// Text
-.text-yellow {
-  color: #e0a80d;
-}
-
-.to-upper {
-  text-transform: uppercase;
-}
-
-// Margins
-.margin-zero {
-  margin: 0;
-}
-
-.padding-top-l {
-  padding-top: 20px;
+.about-me-desc-block p {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 // Lists
@@ -65,10 +48,4 @@
 
 .heading-social-item a:hover i.fa-github-square {
   color: #24292e;
-}
-
-// Separators
-
-.bottom-separator {
-  width: 75%;
 }
