@@ -9,49 +9,52 @@
 }
 
 // Size {
-.about-me-block {
-  text-align: right;
-  padding-top: 10px;
+@mixin block-paddings {
   padding-right: 20px;
+  padding-top: 30px;
+  text-align: right;
+}
+
+@mixin block-paragraph-padding {
+  p {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+
+@mixin block-heading-padding {
+  h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.about-me-block {
+  @include block-paddings;
 }
 
 .about-me-desc-block {
   margin-bottom: 50px;
 
-  h4 {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  p {
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: justify;
-    text-justify: inter-word;
-  }
+  @include block-paragraph-padding;
+  @include block-heading-padding;
 }
 
 .experience-title-block {
-  text-align: right;
-  padding-right: 20px;
-  padding-top: 30px;
+  @include block-paddings;
 }
 
 .contact-title-block {
-  text-align: right;
-  padding-right: 20px;
-  padding-top: 30px;
+  @include block-paddings;
 }
 
 .contact-desc-block {
   margin-bottom: 50px;
 
-  p {
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: justify;
-    text-justify: inter-word;
-  }
+  @include block-heading-padding;
+  @include block-paragraph-padding;
 }
 
 // Lists
@@ -127,7 +130,7 @@
 .timeline-event-item-time {
   color: #fff;
   font-size: 0.75em;
-  background-color: #000;
+  background-color: $background-secondary-color;
   display: inline-block;
   margin-bottom: 1.2em;
   padding: 0.25em 1em 0.2em 1em;

@@ -2,7 +2,7 @@
 
 // Colors
 .lighten-background {
-  background-color: color.scale($uoc-bg, $lightness: 10%);
+  background-color: color.scale($background-main-lightness, $lightness: 10%);
 }
 
 // Sizes
@@ -12,7 +12,7 @@
 
 // Text
 .text-yellow {
-  color: #e0a80d;
+  color: $background-secondary-color;
 }
 
 .to-upper {
