@@ -4,16 +4,19 @@
     padding: 30px 0 10px;
   }
 }
+
 @media (min-width: $medium-devices-min-width) {
   .padding-logo {
     padding: 20px;
   }
 }
+
 @media (min-width: $large-devices-min-width) {
   .padding-logo {
     padding: 30px;
   }
 }
+
 @media (min-width: $extra-large-devices-min-width) {
   .padding-logo {
     padding: 40px;
@@ -128,8 +131,10 @@
 .timeline-event-item-desc {
   position: relative;
   top: -1.875em;
-  left: 4em;
-  width: 80%;
+  @media (min-width: $medium-devices-min-width) {
+    left: 4em;
+    width: 80%;
+  }
 
   h3 {
     font-size: 1.75em;
