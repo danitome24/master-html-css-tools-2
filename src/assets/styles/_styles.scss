@@ -1,6 +1,23 @@
 // Logo
-.padding-logo {
-  padding: 40px;
+@media (max-width: $small-devices-min-width) {
+  .padding-logo {
+    padding: 30px 0 10px;
+  }
+}
+@media (min-width: $medium-devices-min-width) {
+  .padding-logo {
+    padding: 20px;
+  }
+}
+@media (min-width: $large-devices-min-width) {
+  .padding-logo {
+    padding: 30px;
+  }
+}
+@media (min-width: $extra-large-devices-min-width) {
+  .padding-logo {
+    padding: 40px;
+  }
 }
 
 // Title
