@@ -60,6 +60,13 @@
 
   @include block-paragraph-padding;
   @include block-heading-padding;
+
+  @media (max-width: $small-devices-min-width) {
+    display: block;
+    div {
+      max-width: 100%;
+    }
+  }
 }
 
 .experience-title-block {
