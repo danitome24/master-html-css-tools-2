@@ -19,16 +19,22 @@
   text-transform: uppercase;
 }
 
-.text-size-s {
-  font-size: 5px;
+@function text-size($size) {
+  @if $size == 'l' {
+    @return 20px;
+  }
+
+  @if $size == 'xl' {
+    @return 40px;
+  }
 }
 
 .text-size-l {
-  font-size: 20px;
+  font-size: text-size('l');
 }
 
 .text-size-xl {
-  font-size: 40px;
+  font-size: text-size('xl');
 }
 
 .text-align-center {
