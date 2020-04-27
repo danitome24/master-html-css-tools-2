@@ -3,6 +3,7 @@
  * see commented examples below
  */
 
+import('bootstrap');
 // import 'some-node-module';
 // import SomeModule from 'some-node-module';
 

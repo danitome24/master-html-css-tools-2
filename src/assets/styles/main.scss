@@ -11,9 +11,7 @@
  */
 
 @import "@fortawesome/fontawesome-free/css/all.css";
-//@import "@compass/css3";
-// @import "some-node-module";
-// @import "@some-company/some-node-module";
+@import "~bootstrap/scss/bootstrap";
 
 /**
  * Import layouts
@@ -21,8 +19,6 @@
  */
 
 @import "layouts/home";
-@import "grid";
-@import "modifiers";
 @import "styles";
 
 /**
