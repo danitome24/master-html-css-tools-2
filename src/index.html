@@ -1,22 +1,96 @@
 <!DOCTYPE html>
 
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no">
-        <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-        <title>El Huérfano de los Zhao</title>
-    </head>
-    <body>
-        <header>
-            <button type="button" class="btn btn-primary">Primary</button>
-            <ul>
-                <li><a>LOGO</a></li>
-                <li><a>Miembros</a></li>
-                <li><a>El grupo</a></li>
-                <li><a>Contact</a></li>
-            </ul>
-        </header>
-        <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>El Huérfano de los Zhao</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <a class="navbar-brand" href="#">El Huérfano de los Zhao</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link text-uppercase text-white" href="#">Miembros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-uppercase text-white" href="#">El grupo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-uppercase text-white" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<header class="header-image">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 text-center">
+                <h1 class="font-weight-light">Vertically Centered Masthead Content</h1>
+                <p class="lead">A great starter layout for a landing page</p>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="py-5">
+    <div class="container">
+        <h2 class="font-weight-light">Page Content</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis
+            blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat
+            reprehenderit expedita.</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer bg-secondary">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col">
+                <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente
+                    sint, nulla, nihil repudiandae commodi voluptatibus corrupti animi
+                    sequi aliquid magnam debitis, maxime quam recusandae harum esse
+                    fugiat. Itaque, culpa?</p>
+            </div>
+            <div class="col">
+                <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente
+                    sint, nulla, nihil repudiandae commodi voluptatibus corrupti animi sequi
+                    aliquid magnam debitis, maxime quam recusandae harum esse fugiat.
+                    Itaque, culpa?</p>
+            </div>
+        </div>
+        <div class="row border-top bg-secondary pt-2">
+            <div class="col-md-3 col-lg-3 col-xl-3">
+                LOGO
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-6">
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item border-0 bg-secondary">
+                        <a class="nav-link text-uppercase" href="#">Miembros</a>
+                    </li>
+                    <li class="list-group-item border-0 bg-secondary">
+                        <a class="nav-link text-uppercase" href="#">El grupo</a>
+                    </li>
+                    <li class="list-group-item border-0 bg-secondary">
+                        <a class="nav-link text-uppercase" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3">
+                SOCIAL
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+<script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
 </html>
