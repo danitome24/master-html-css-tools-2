@@ -11,3 +11,19 @@ body {
   background-repeat: no-repeat;
   background-image: url("../images/theater-seats.jpg");
 }
+
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 1fr;
+  grid-template-rows: 1fr 4fr 3fr 2fr 2fr;
+}
+
+.header-grid-title {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.header-grid-subtitle {
+  grid-column: 2;
+  grid-row: 4;
+}
