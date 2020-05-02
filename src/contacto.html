@@ -23,77 +23,42 @@
                 <a class="nav-link text-uppercase text-white" href="historia.html">Historia</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-uppercase text-white" href="contacto.html">Contact</a>
+                <a class="nav-link text-uppercase text-white" href="contacto.html">Contacto</a>
             </li>
         </ul>
     </div>
 </nav>
 
-<div class="text-center">
-    <h2>Miembros de la obra</h2>
-</div>
-
-<!-- Container -->
-<div class="container-custom mt-5 pl-5 pr-5">
-
-    <div class="card-custom pl-3 pr-3">
-        <div class="card-custom-image">
-            <img src="assets/images/member-img.jpeg" alt="member image">
-        </div>
-        <div class="card-custom-details">
-            Jose Luís
-        </div>
+<!-- Contact form -->
+<div class="container">
+    <div class="col">
+        <h3>Póngase en contacto con nosotros si necesita más información</h3>
     </div>
-    <div class="card-custom pl-3 pr-3">
-        <div class="card-custom-image">
-            <img src="assets/images/member-img.jpeg" alt="member image">
-        </div>
-        <div class="card-custom-details">
-            Cristina Martin
-        </div>
-    </div>
-    <div class="card-custom pl-3 pr-3">
-        <div class="card-custom-image">
-            <img src="assets/images/member-img.jpeg" alt="member image">
-        </div>
-        <div class="card-custom-details">
-            Ana Tomia
-        </div>
-    </div>
-    <div class="card-custom pl-3 pr-3">
-        <div class="card-custom-image">
-            <img src="assets/images/member-img.jpeg" alt="member image">
-        </div>
-        <div class="card-custom-details">
-            Carla Marcos
-        </div>
-    </div>
-    <div class="card-custom pl-3 pr-3">
-        <div class="card-custom-image">
-            <img src="assets/images/member-img.jpeg" alt="member image">
-        </div>
-        <div class="card-custom-details">
-            Daniel Tomé
-        </div>
-    </div>
-    <div class="card-custom pl-3 pr-3">
-        <div class="card-custom-image">
-            <img src="assets/images/member-img.jpeg" alt="member image">
-        </div>
-        <div class="card-custom-details">
-            Wilma Fernandez
-        </div>
-    </div>
-    <div class="card-custom pl-3 pr-3">
-        <div class="card-custom-image">
-            <img src="assets/images/member-img.jpeg" alt="member image">
-        </div>
-        <div class="card-custom-details">
-            Xenia Milkova
+    <div class="row mb-3 mt-3">
+        <div class="col">
+            <form name="contact" netlify>
+                <div class="form-group">
+                    <label for="email">Dirección de correo</label>
+                    <input type="email" class="form-control"
+                           id="email"
+                           aria-describedby="emailHelp"
+                           placeholder="ejemplo@dominio.com">
+                </div>
+                <div class="form-group">
+                    <label for="fullname">Nombre</label>
+                    <input type="text" class="form-control"
+                           id="fullname" placeholder="Luis Perales">
+                </div>
+                <div class="form-group">
+                    <label for="help">¿En qué podemos ayudarte?</label>
+                    <textarea class="form-control" id="help"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
         </div>
     </div>
 </div>
-<!-- End Container -->
+<!-- End Contact form -->
 
 <!-- Footer -->
 <footer class="site-footer bg-secondary">
