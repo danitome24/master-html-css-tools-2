@@ -1,3 +1,9 @@
 @use "sass:color";
 
-$primary: blue !default;
+$secondary: #555E7B;
+$yellow: #FDE47F;
+
+$dark: $secondary;
+
+//$navbar-dark-color: ;
+$navbar-dark-hover-color: $yellow;
