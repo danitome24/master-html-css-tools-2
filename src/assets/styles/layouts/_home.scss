@@ -41,3 +41,23 @@ body {
   margin-left: 5%;
   margin-bottom: 3%;
 }
+
+.list-ordered {
+  color: #ccc;
+  list-style-type: none;
+}
+
+.list-ordered-item {
+  position: relative;
+  font: italic 20px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+.list-ordered-item-text {
+  padding-left: 60px;
+  color: #555;
+}
+
+.list-ordered-item-order {
+  position: absolute;
+}
