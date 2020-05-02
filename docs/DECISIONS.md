@@ -3,12 +3,17 @@
 La metodología que he escogido ha sido BEM (Block Element Modifier). La razón es ya que me parece una metodología bastante
 simple e intuitiva. Otra razón es que yo estoy acostumbrado a usar la librería de Bootstrap la cual está basada en BEM.
 
-En el parcial `_styles.scss` podemos ver que he creado estilos con el sufijo `*-block` que hacen referencia a los bloques.
-Para identificar elementos he usado el sufijo `*-item` y los modificadores los podemos encontrar en el parcial `_modifiers.scss`.
+Esta vez los ficheros de estilos los he simplificado bastante. Tenemos únicamente 3 ficheros. El primero y
+principal `main.scss` encargado de cargar librerías como `Bootstrap` y `FontAwesome`. Para esta importación uso el
+@import.
 
-Todo lo que tenga que ver con estructura lo pondremos en el parcial `_grid.scss`. Aquí podemos tener columnas, filas, anchos, etc.
-Por último, tendremos el parcial `_variables.scss` donde tendremos las variables que se usarán en nuestros ficheros.
+El fichero `_variables.scss` donde sobrescribo variables usada en el theme de Bootstrap. Estas variables son principalmente
+para la barra de navegación y para el footer. El último fichero de estilos es el `layouts/_home.scss` donde tengo
+los estilos globales y los grid.
 
 ## Dependencias
 
 * FontAwesome: Hemos introducido las fuentes para el timeline.
+* Jquery: Como requisito para usar Bootstrap es necesario instalar esta librería. Me he encontrado
+un único problema con las versiones, ya que la 3.5 tiene un bug y he tenido que instalar la 3.4.1.
+* Bootstrap: Librería de componentes usada por la plataforma Twitter.
