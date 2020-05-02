@@ -8,8 +8,10 @@ principal `main.scss` encargado de cargar librerías como `Bootstrap` y `FontAwe
 @import.
 
 El fichero `_variables.scss` donde sobrescribo variables usada en el theme de Bootstrap. Estas variables son principalmente
-para la barra de navegación y para el footer. El último fichero de estilos es el `layouts/_home.scss` donde tengo
-los estilos globales y los grid.
+para la barra de navegación y para el footer. Principalmente he sobrescrito dos variables: $dark para el color de fondo
+del footer y navegación y $navbar-dark-hover-color para el hover de la navegación superior.
+
+El último fichero de estilos es el `layouts/_home.scss` donde tengo los estilos globales y los grid.
 
 ## Dependencias
 
