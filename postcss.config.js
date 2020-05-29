@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    require('tailwindcss')(),
     require("autoprefixer")(),
     require("postcss-clean")(),
     require("postcss-preset-env")({

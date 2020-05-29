@@ -36,5 +36,8 @@
     "rimraf": "^2.7.1",
     "sass": "^1.25.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.4.6"
+  }
 }
