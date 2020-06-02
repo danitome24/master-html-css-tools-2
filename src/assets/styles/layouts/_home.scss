@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 30px;
+  padding: 0;
   font-family: $font-family-sans-serif;
   background-color: $uoc-bg;
   color: $uoc-corporate;
@@ -18,4 +18,31 @@ body {
   font-size: 36px;
   font-weight: 700;
   color: $uoc-corporate;
+}
+
+.header-image {
+  height: 100vh;
+  min-height: 500px;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/theater-seats.jpg");
+}
+
+.header-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 3fr 2fr 1fr;
+  grid-template-rows: 1fr 4fr 3fr 2fr 2fr;
+}
+
+.header-grid-title {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.header-grid-subtitle {
+  grid-column: 2;
+  grid-row: 4;
 }
