@@ -10,8 +10,43 @@
  * see commented examples below
  */
 @import "@fortawesome/fontawesome-free/css/all.css";
+
 @tailwind base;
 @tailwind components;
+
+/**
+  Apply navlink
+ */
+.navlink {
+  @apply block mt-4 text-white mr-4;
+}
+
+@screen lg {
+  .navlink {
+    @apply inline-block mt-0;
+  }
+}
+
+.card-header {
+  @apply items-center justify-between leading-tight p-2 bg-white hidden;
+}
+
+@screen lg {
+  .card-header {
+    @apply flex;
+  }
+}
+
+.footer-logo {
+  @apply inline;
+}
+
+@screen lg {
+  .footer-logo {
+    @apply pl-5;
+  }
+}
+
 @tailwind utilities;
 
 /**
